@@ -44,6 +44,7 @@ footer{
 }
 
 li{
+    width: 5%;
     color: #ffffff;
     background-color: #000000;
     padding: 0.7%;
@@ -54,8 +55,13 @@ li{
     font-family: 'Advent Pro', sans-serif;
 }
 
+.bigger_button{
+    width: 12%;
+}
+
 #login{
     float: right;
+    width: 14%;
 }
 
 ul {
