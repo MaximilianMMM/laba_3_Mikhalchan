@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Oswald:wght@300&display=swap');
+
+#logo {
+    width: 40%;
+}
+
+#logo :hover{
+    background-color: #000000;
+}
+
+h1 {
+    color: #000000;
+    text-align:left;
+    background-color: #ffffff;
+    padding: 20%;
+    font-family: 'Advent Pro', sans-serif;
+  }
+
+body{
+    background-color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+section{
+    float: left;
+    width: 85%;
+}
+
+aside{
+    float: right;
+    width: 15%;
+    background-color: #f1f1f1;
+    height: 100vh;
+    
+}
+
+footer{
+    clear: both;
+    background-color: #5c5b5b;
+    color: white;
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+li{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0.7%;
+    float: left;
+    font-size: 115%;
+    transition: 0.6s;
+    cursor: pointer;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#login{
+    float: right;
+}
+
+ul {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0%;
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Oswald', sans-serif;
+  }
+
+li:hover{
+    color: #000000;
+    background-color: #ffffff;
+    outline: 3px solid #000000;
+    padding: 0.6%;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+article{
+    clear: both;
+    padding-top: 1%;
+}
+
+#input{
+    clear: both;
+    font-size: 150%;
+}
+
+.in{
+    width: 75%;
+    padding: 0.7%;
+    margin: 0.4%;
+    border: 1px solid black;
+}
+
+#post{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 1px solid black;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+#now{
+    color: #000000;
+    background-color: #ffffff;
+    border: #000000;
+    border-style: solid;
+    padding: 0.5%;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.list{
+    clear: both;
+}
+
+button{
+    height: 3vh;
+    width: 10%;
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: black;
+    border: #000000;
+    border-style: solid;
+}
