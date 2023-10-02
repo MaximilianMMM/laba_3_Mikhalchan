@@ -1,139 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Oswald:wght@300&display=swap');
 
-#logo {
-    width: 40%;
-}
-
-#logo :hover{
-    background-color: #000000;
-}
-
-h1 {
-    color: #000000;
-    text-align:left;
-    background-color: #ffffff;
-    padding: 20%;
-    font-family: 'Advent Pro', sans-serif;
-  }
-
-body{
-    background-color: white;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-family: 'Oswald', sans-serif;
-}
-
-section{
-    float: left;
-    width: 85%;
-}
-
-aside{
-    float: right;
-    width: 15%;
-    background-color: #f1f1f1;
-    height: 100vh;
-    
-}
-
-footer{
-    clear: both;
-    background-color: #5c5b5b;
-    color: white;
-    text-align: center;
-    font-family: 'Advent Pro', sans-serif;
-}
-
-li{
-    width: 5%;
-    color: #ffffff;
-    background-color: #000000;
-    padding: 0.7%;
-    float: left;
-    font-size: 115%;
-    transition: 0.6s;
-    cursor: pointer;
-    font-family: 'Advent Pro', sans-serif;
-}
-
-.bigger_button{
-    width: 12%;
-}
-
-#login{
-    float: right;
-    width: 14%;
-}
-
-ul {
-    color: #ffffff;
-    background-color: #000000;
-    padding: 0%;
-    list-style-type: none;
-    margin: 0;
-    font-family: 'Advent Pro', sans-serif;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-family: 'Oswald', sans-serif;
-  }
-
-li:hover{
-    color: #000000;
-    background-color: #ffffff;
-    outline: 3px solid #000000;
-    padding: 0.6%;
-    font-family: 'Advent Pro', sans-serif;
-}
-
-article{
-    clear: both;
-    padding-top: 1%;
-}
-
-#input{
-    clear: both;
-    font-size: 150%;
-}
-
-.in{
-    width: 75%;
-    padding: 0.7%;
-    margin: 0.4%;
-    border: 1px solid black;
-}
-
 #post{
     width: 30%;
-    float: left;
     padding-right: 3%;
     padding-bottom: 5%;
     padding-top: 5%;
-    border-bottom: 1px solid black;
     font-family: 'Advent Pro', sans-serif;
 }
 
-#now{
-    color: #000000;
-    background-color: #ffffff;
-    border: #000000;
-    border-style: solid;
-    padding: 0.5%;
-    font-family: 'Advent Pro', sans-serif;
+body {
+    height: 100vh;
 }
 
-.list{
-    clear: both;
+#gradient {
+    background-image: linear-gradient(#ffffff, #000000);
+    height: 40%;
+    margin-top: 60%;
+    bottom: 0%;
+    position: sticky;
+    z-index: -1;
 }
 
-button{
-    height: 3vh;
-    width: 10%;
+.nav__item {
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.nav__item:hover {
     background-color: #000000;
     color: #ffffff;
-    transition: 0.4s;
+    transition: 0.6s;
 }
 
-button:hover{
+.search {
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    padding: 7px;
+    border: #000000 solid;
+    cursor: pointer;
+}
+
+.nav__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+}
+
+.logo__img {
+    height: 100px;
+    background-image: url('Logo_black.jpg');
+    transition: 0.6s;
+}
+
+.header__div{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.drop__title {
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.drop__title:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+.dropdown__item {
+    font-size: 20px;
+    cursor: pointer;
+    color: #000000;
     background-color: #ffffff;
-    color: black;
-    border: #000000;
-    border-style: solid;
+}
+
+.dropdown__item:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+.header__dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown__content {
+    padding-top: 7px;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px #ffffff;
+    z-index: 1;
+    width: 162px;
+}
+
+.dropdown__item {
+    text-decoration: none;
+    padding: 7px;
+    display: block;
+}
+
+.header__dropdown:hover .dropdown__content{
+    display: block;
+}
+
+.logo__img:hover {
+    transition: 0.6s;
+    content: url('Logo_black.jpg');
+}
+
+.header {
+    position: sticky;
+    top: 0%;
+    background-color: #ffffff;
 }
