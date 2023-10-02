@@ -3,25 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ГО "Молодь Букоаини"</title>
-    
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login.html">
     <link rel="stylesheet" href="about_us.html">
-    <link rel="shortcut icon" href="Logo.jpg" type="image/x-icon" />
 </head>
 <body>
-    <header><img id="logo" src="Logo_white.jpg" alt=""></header>
-    <nav>
-        <ul>
-            <li id="now">Головна</li>
-            <a href="about_us.html"><li>Про нас</li></a>
-            <li>Контакти</li>
-            <li class="bigger_button">Реалізовані проєкти</li>
-            <li class="bigger_button">Соціальні мережі</li>
-            <a href="login.html"><li id="login">Увійти/Зареєструватись</li></a>
-        </ul>
-    </nav>
+    <header class="header">
+        <div class="header__div">
+            <div class="header__logo">
+                <div class="logo__icon">
+                    <img class="logo__img" src="Logo_white.jpg" alt="logo">
+                </div>
+            </div>
+            <div class="header__nav">
+                <nav class="header__list">
+                    <ul class="nav__list">
+                        <li class="now nav__item">Головна</li>
+                        <a href="about_us.html">
+                            <li class="nav__item">Про нас</li>
+                        </a>
+                        <li class="nav__item">Контакти</li>
+                        <li class="nav__item">Реалізовані проєкти</li>
+                        <div class="header__dropdown">
+                            <span class="drop__title">
+                                Соціальні мережі
+                            </span>
+                            <div class="dropdown__content">
+                                <a href="#" class="dropdown__item">Instagram</a>
+                                <a href="#" class="dropdown__item">Telegram</a>
+                            </div>
+                        </div>
+                        <a>
+                            <li class="nav__item">Увійти/Зареєструватись</li>
+                        </a>
+                    </ul>
+                    <form> 
+                        <input type="text" name="text" class="search" placeholder="Search here!">
+                        <input type="submit" name="submit" class="submit" value="Search">
+                      </form>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
     <section>
         <article>
             <img id="post" src="post.jpg" alt="">
@@ -64,8 +88,7 @@
 
         </article>
     </section>
-    <aside class="side">Тут може бути багато корисної інформації!</aside>
-    <footer>Сподіваємось ти оцінив наш сайт!</footer>
-    
+
+    <div id="gradient"></div>
 </body>
 </html>
